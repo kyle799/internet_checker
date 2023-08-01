@@ -43,4 +43,4 @@ Kyle\'s:      {check_response(kyle_response)} <br>
 Kyle\'s IP:   {check_response(kyle_ip_response)}"""
 
 if __name__ == "__main__":
-        app.run(port=80)
+        app.run(port=80, host='0.0.0.0')
